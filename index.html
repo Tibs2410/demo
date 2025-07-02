@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Food Body Fit Chat Demo</title>
+</head>
+<body>
+  <!-- Widget Configuration -->
+  <script>
+    window.ChatWidgetConfig = {
+      webhook: {
+        url: 'https://tibs24.app.n8n.cloud/webhook/0810e08b-7fcf-4cc3-a89b-c683e869187f/chat',
+        route: 'general'
+      },
+      branding: {
+        logo: 'https://foodbodyfit.com/wp-content/uploads/2023/04/Health-2-1440x1536.png.webp',
+        name: 'Food Body Fit',
+        welcomeText: 'Welcome to Foodbodyfit! How can we help? :)',
+        responseTimeText: 'We typically respond right away'
+      },
+      style: {
+        primaryColor: '#368137',
+        secondaryColor: '#6bb44a',
+        position: 'right',
+        backgroundColor: '#ffffff',
+        fontColor: '#333333'
+      }
+    };
+  </script>
+
+  <!-- Widget Script -->
+  <script src="https://cdn.jsdelivr.net/gh/WayneSimpson/n8n-chatbot-template@ba944c3/chat-widget.js"></script>
+</body>
+</html>
